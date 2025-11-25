@@ -10,7 +10,12 @@ This project allows users to create and explore color combinations with ease. It
 ---
 
 ## 🚀 Features
-- 
+- 🎛️ Select a seed color  
+- 🎨 Generate 5-color palettes instantly  
+- 🔄 Supports multiple color harmony modes  
+- 📋 Copy hex color on click (optional feature)  
+- ⚡ Fast and responsive  
+- 🧩 Powered by **TheColorAPI**
 
 ---
 
@@ -24,13 +29,22 @@ This project allows users to create and explore color combinations with ease. It
 ---
 
 ## 📚 What We Have Studied
-> Concepts practiced include:  
+- DOM selection & manipulation  
+- Event listeners  
+- Fetch API & Promises  
+- Rendering dynamic HTML  
+- JSON handling  
+- Loading state management  
 
 
 ---
 
 ## 🌿 Lessons Learned
--  
+- Clean separation of logic using functions  
+- How to integrate APIs into UI  
+- Efficient rendering using template strings  
+- Updating the UI after async operations  
+- Better user experience with button disabling/loading  
 
 ---
 
