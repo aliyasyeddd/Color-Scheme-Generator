@@ -12,8 +12,12 @@ function getColorScheme() {
     fetch(`https://www.thecolorapi.com/scheme?hex=${hexValue}&mode=${selectedMode}&count=5`)
         .then(res => res.json())
         .then(data => {
-            let colors = data.colors;
-            let colorPaletteHTML = '';
+            renderColorPalette(data.colors);
+        })
+}
+
+function renderColorPalette(colors) {
+  let colorPaletteHTML = '';
             for (let color of colors) {
                 colorPaletteHTML += `
                        <div class="color-item">
@@ -23,5 +27,4 @@ function getColorScheme() {
                 `
             }
             colorPalette.innerHTML = colorPaletteHTML;
-        })
 }
