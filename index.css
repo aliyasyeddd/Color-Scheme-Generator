@@ -1,4 +1,3 @@
-html,
 body {
   margin: 0;
   padding: 0;
@@ -16,10 +15,16 @@ h1 {
 .color-container {
   height: 550px;
   width: 550px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+}
+
+.color-controls {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 15px;
+  padding: 20px 24px;
 }
 
 .color-picker {
@@ -37,4 +42,13 @@ select {
   border: 2px solid #9ca3af;
   border-radius: 6px;
   padding: 10px;
+}
+
+.generate-color-btn {
+  width: 133px;
+  height: 42px;
+  color: black;
+  border: 2px solid #9ca3af;
+  background-color: white;
+  border-radius: 4px;
 }
