@@ -51,4 +51,5 @@ select {
   border: 2px solid #9ca3af;
   background-color: white;
   border-radius: 4px;
+  cursor: pointer;
 }
