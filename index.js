@@ -7,6 +7,9 @@ const selectedMode = document.getElementById('scheme-selector').value;
 generateBtn.addEventListener('click', getColorScheme);
 
 function getColorScheme() {
+    generateBtn.textContent = 'Generating...';
+    generateBtn.disabled = true;
+    generateBtn.style.cursor = 'not-allowed';
     const seedColor = colorPicker.value;
     const hexValue = seedColor.slice(1);
     fetch(`https://www.thecolorapi.com/scheme?hex=${hexValue}&mode=${selectedMode}&count=5`)
@@ -14,6 +17,14 @@ function getColorScheme() {
         .then(data => {
             renderColorPalette(data.colors);
         })
+        .catch(error => {
+             console.error('Error details:', error);
+        })
+        .finally(() => {
+            generateBtn.textContent = 'Get color scheme';
+            generateBtn.disabled = false;
+            generateBtn.style.cursor = 'pointer';
+        });
 }
 
 function renderColorPalette(colors) {
