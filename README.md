@@ -56,6 +56,6 @@ This project allows users to create and explore color combinations with ease. It
 ---
 
 ## 💫 Author
-👩‍💻 **Created by Your Name**  
+👩‍💻 **Created by [Aliya](https://github.com/aliyasyeddd)**
 > _“Build. Break. Learn. Repeat.”_
 
