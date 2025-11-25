@@ -1,4 +1,40 @@
-html, body {
-    margin: 0;
-    padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: #696fc7;
+  text-align: center;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.color-container {
+  height: 550px;
+  width: 550px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color-picker {
+  width: 61px;
+  height: 42px;
+  border: none;
+  padding: 0;
+  background: #d1d5db;
+  cursor: pointer;
+}
+
+select {
+  width: 312px;
+  height: 42px;
+  border: 2px solid #9ca3af;
+  border-radius: 6px;
+  padding: 10px;
 }
