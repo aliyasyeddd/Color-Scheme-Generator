@@ -14,7 +14,7 @@ h1 {
 
 .color-container {
   height: 550px;
-  width: 550px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -52,4 +52,25 @@ select {
   background-color: white;
   border-radius: 4px;
   cursor: pointer;
+}
+
+#color-palette {
+    display: flex;
+    gap: 0;  
+     margin: 0 auto;  
+}
+
+.color-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-swatch {
+  width: 110px;
+  height: 550px;
+}
+
+.color-hex {
+    font-size: 1rem;
 }
