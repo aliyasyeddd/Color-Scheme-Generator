@@ -18,13 +18,13 @@ function getColorScheme() {
 
 function renderColorPalette(colors) {
   let colorPaletteHTML = '';
-            for (let color of colors) {
+            colors.forEach(color => {
                 colorPaletteHTML += `
                        <div class="color-item">
                          <img src="${color.image.bare}" alt="${color.name.value}" class="color-swatch"/> 
                          <p class="color-hex" style="color:${color.hex.value}">${color.hex.value}</p> 
                        </div>
                 `
-            }
+            })
             colorPalette.innerHTML = colorPaletteHTML;
 }
