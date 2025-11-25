@@ -1,19 +1,47 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🎨 Color Scheme Generator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+> A simple tool that helps users generate beautiful color palettes for their projects.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+---
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🪞 Overview
+This project allows users to create and explore color combinations with ease. It’s designed for developers, designers, and anyone looking to quickly build aesthetic color palettes.
 
-Happy Coding!
+---
+
+## 🚀 Features
+- 
+
+---
+
+## 🧱 Tech Stack
+| Technology | Purpose |
+|-----------|----------|
+| **HTML5** | Structure |
+| **CSS3** | Styling |
+| **JavaScript (ES6)** | Logic & interactivity |
+
+---
+
+## 📚 What We Have Studied
+> Concepts practiced include:  
+
+
+---
+
+## 🌿 Lessons Learned
+-  
+
+---
+
+## 🖼️ Screenshots / Demo
+![App Screenshot](./images/demo.png)
+
+🔗 **Live Demo:** _Coming soon_
+
+---
+
+## 💫 Author
+👩‍💻 **Created by Your Name**  
+> _“Build. Break. Learn. Repeat.”_
+
